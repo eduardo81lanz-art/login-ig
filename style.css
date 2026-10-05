@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #8e8e8e;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0073c7;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider span {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.signup-box p {
+    text-align: center;
+    color: #262626;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+}
